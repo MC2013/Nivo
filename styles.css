@@ -1,0 +1,33 @@
+/* Template */
+/* Style.css */
+/* Created March 15, 2005 */
+/* Modified August 16, 2006
+--------------------------------------- */
+
+/*
+-----------------------------------------------
+Import advanced style sheet
+-----------------------------------------------
+*/
+
+
+@import url("reset-min.css");
+@import url("fonts-min.css");
+@import url("main.css");
+@import url("menu.css");
+
+
+
+#content dl.filterers dl { position: relative; float: left; width: 249px; padding-top: 8px; }
+#content dl.filterers em { float: left; padding: 15px .7em 0 .5em; font-style: italic; }
+#content dl.filterers dl dt { cursor: pointer; position: relative; z-index: 5; float: none; width: 229px; height: 18px; padding: 8px 10px; background: url('http://wac.edgecastcdn.net/800003/origin.edgecast.com/img/filter-head-bg.png') no-repeat top left; font-style: normal; font-stretch: condensed; font: bold 18px "TradeGothic-CondEighteen", "Trade Gothic Cond Eighteen", "Trade Gothic Condensed Eighteen", "Trade Gothic", "TradeGothic", "Trade-Gothic", "NewsGothic", "News Gothic", "News-Gothic", "ITC Franklin Gothic Std", "HelveticaNeue-CondBold", "HelveticaCondensed", "Helvetica Condensed", "Helvetica-Condensed", "ArialNarrow", "Arial-Narrow", "Arial Narrow", Arial, sans-serif; color: #000; text-transform: uppercase; line-height: 1em; }
+#content dl.filterers dl:hover dt { background-position: 0 -34px; }
+#content dl.filterers dl dd { position: absolute; top: 20px; left: 0; z-index: 1; width: 239px; padding: 0 6px 0 4px; }
+#content dl.filterers dl dd ul { margin: 0; padding: 20px 0 0 0; border: 1px solid #3d434e; background: #efefef; }
+#content dl.filterers dl dd ul, #content dl.filterers dl dd ul li a.last:hover { -moz-border-radius: 0 0 5px 5px; -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px; border-radius: 0 0 5px 5px; }
+#content dl.filterers dl dd ul { -moz-box-shadow:  0px 0px 8px #333; -webkit-box-shadow: 0px 0px 8px #333; box-shadow: 0px 0px 8px #333; }
+#content dl.filterers dl dd li { float: none; margin-top: 0; font-size: 14px; font-family: "DejaWeb", "Trebuchet MS", Arial, sans-serif; }
+#content dl.filterers dl dd li a { padding: 8px; color: #333; }
+#content dl.filterers dl dd li a:hover { background: #ccc; color: #000; }
+
+#content ul.filterees li, #content #partners ul li { float: left; width: 167px; margin: 0 14px 14px 0; }
