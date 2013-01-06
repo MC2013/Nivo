@@ -1,0 +1,11 @@
+#featurednivo-slides {
+  position:relative;
+	width:877px;
+	height: 220px !important;
+}
+#featurednivo-slides img { position:absolute;	top:0px;	left:0px;	display:none;}
+#featurednivo-slides  a { text-decoration:none; color:#fff; border:0; display:block;}
+#nivo-featured {
+	height: 220px !important;
+	overflow:hidden;
+}
